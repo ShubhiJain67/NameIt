@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f1228;
+  overflow-x: hidden;
+  color: #e7e9f0;
+  font-family: 'lato', sans-serif;
+  padding: 100px 20px;
+}
+
+.head-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.head-container .head-image {
+  border-bottom: 2px solid white;
+  padding: 0px 20px 10px 20px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.head-container .head-image-extended {
+  width: 450px;
+}
+
+.head-container .head-image-compressed {
+  width: 250px;
+}
+
+.head-container .head-text {
+  padding-top: 20px;
+  letter-spacing: 5px;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+}
+
+.head-container .head-text-extended {
+  font-size: 42px;
+}
+
+.head-container .head-text-compressed {
+  font-size: 28px;
+}
+/*# sourceMappingURL=app.css.map */

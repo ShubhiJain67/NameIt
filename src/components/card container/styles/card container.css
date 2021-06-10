@@ -1,0 +1,30 @@
+.card-container {
+  margin: 20px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card-container .card {
+  background-color: #282d4f;
+  width: 150px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.card-container .card .card-content {
+  color: white;
+}
+
+.card-container .card:hover {
+  cursor: pointer;
+  background-color: #4A5079;
+}
+/*# sourceMappingURL=card container.css.map */

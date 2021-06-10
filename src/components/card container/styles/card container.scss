@@ -1,0 +1,28 @@
+.card-container{
+    // border: 2px solid white;
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .card{
+        // border: 2px solid red;
+        background-color : #282d4f;
+        width: 150px;
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 20px;
+    
+        .card-content{
+            // border: 2px solid yellow;
+            color: white;
+        }
+    
+        &:hover{
+            cursor: pointer;
+            background-color: #4A5079;
+        }
+    }
+}
